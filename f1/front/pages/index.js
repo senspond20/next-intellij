@@ -1,8 +1,11 @@
 import {Fragment} from "react";
+import AppLayout from "../components/AppLayout";
 
 const home =()=>{
     return (
-        <Fragment>안녕하세요</Fragment>
+        <AppLayout>
+            <Fragment>안녕하세요</Fragment>
+        </AppLayout>
     );
 }
 export default home;
