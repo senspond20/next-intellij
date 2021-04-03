@@ -2,15 +2,14 @@ import {Fragment} from "react";
 import AppLayout from "../components/AppLayout";
 import Head from "next/head";
 
-const profile = () =>{
-    return (
+const signup = () =>{
+    return(
         <Fragment>
             <Head>
-                <title>프로필 </title>
+                <title>회원 가입</title>
             </Head>
-            <AppLayout>내 프로필</AppLayout>
+            <AppLayout>회원 가입</AppLayout>
         </Fragment>
     )
-};
-
-export default profile;
+}
+export default signup;
